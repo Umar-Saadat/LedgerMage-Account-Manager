@@ -1,23 +1,22 @@
 # LedgerMage – Personal Account Management System
 
-A complete **desktop application** for managing personal accounts with a modern UI, secure login, real-time balance tracking, money transfers, bill checking utility, transaction history, and professional PDF report generation.
+A modern **desktop application** for personal account management, built as a Semester Project for Software Engineering.  
+It offers secure user registration, real-time balance tracking, account-to-account transfers, bill checking, transaction history, and professional PDF report generation.
 
-Built as a Semester Project for **Software Engineering** course.
-
-https://github.com/YOUR_USERNAME/LedgerMage
+![Main Dashboard](Dashboard.png)
 
 ## ✨ Features
 
-- User Registration & Secure Login system
-- Modern, clean GUI using **CustomTkinter**
-- MySQL database with proper relational design (foreign keys, cascades)
-- Dashboard showing real-time account balance
-- Account-to-Account money transfer with balance validation
-- Transaction history logging & beautiful table view
-- Bill checking utility (Electricity, Gas, PTCL) with direct website links
-- Professional PDF generation:
-  - Account Details summary
-  - Full Transaction History report
+- Secure **Registration** & **Login** system with MySQL database
+- Clean, modern GUI using **CustomTkinter**
+- Relational database design (foreign keys, cascades, default balance of 50,000 PKR)
+- Real-time **Dashboard** with current balance overview
+- **Account-to-Account** money transfer with balance validation & transaction logging
+- **Transaction History** with table view
+- **Bill Checking** utility (Electricity, Gas, PTCL) – opens official websites
+- Professional **PDF Reports**:
+  - Full Account Details summary
+  - Complete Transaction History export
 - Input validation, exception handling & user-friendly messages
 
 ## 🛠️ Tech Stack
@@ -33,32 +32,32 @@ https://github.com/YOUR_USERNAME/LedgerMage
 Here are some glimpses of **LedgerMage** in action:
 
 ### Login Screen
-![Login Screen](screenshots/Login.png)
+![Login Screen](Login.PNG)
 
 ### Registration Page
-![Registration Page](screenshots/Register.png)
+![Registration Page](Register.PNG)
 
 ### Main Dashboard
-![Main Dashboard](screenshots/Dashboard.png)
+![Main Dashboard](Dashboard.png)
 
 ### Account Details
-![Account Details](screenshots/Acc_details.png)
+![Account Details](Acc_details.png)
 
-### Send Money
-![Send Money Feature](screenshots/Send.png)
+### Send Money Feature
+![Send Money](Send.png)
 
-### Bill Checking
-![Check Bill](screenshots/bill.png)
+### Bill Checking Utility
+![Check Bill](bill.png)
 
 ### Transaction History
-![Transaction History](screenshots/History.png)
+![Transaction History](History.png)
 
 ## 🚀 Getting Started
 
 ### Prerequisites
 
-- Python 3.8+
+- Python 3.8 or higher
 - MySQL Server (running on localhost)
 - Required Python packages:
   ```bash
-  pip install customtkinter mysql-connector-python fpdf pillow tkcalendar
+  pip install customtkinter mysql-connector-python fpdf Pillow tkcalendar
