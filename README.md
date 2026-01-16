@@ -30,7 +30,28 @@ https://github.com/YOUR_USERNAME/LedgerMage
 
 ## 📸 Screenshots
 
-(Add your screenshots here later – recommended: Login, Register, Dashboard, Send Money, Transaction History, PDF example)
+Here are some glimpses of **LedgerMage** in action:
+
+### Login Screen
+![Login Screen](screenshots/Login.png)
+
+### Registration Page
+![Registration Page](screenshots/Register.png)
+
+### Main Dashboard
+![Main Dashboard](screenshots/Dashboard.png)
+
+### Account Details
+![Account Details](screenshots/Acc_details.png)
+
+### Send Money
+![Send Money Feature](screenshots/Send.png)
+
+### Bill Checking
+![Check Bill](screenshots/bill.png)
+
+### Transaction History
+![Transaction History](screenshots/History.png)
 
 ## 🚀 Getting Started
 
